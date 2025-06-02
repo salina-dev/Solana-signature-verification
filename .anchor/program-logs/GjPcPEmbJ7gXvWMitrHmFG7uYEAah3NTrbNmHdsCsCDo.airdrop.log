@@ -1,0 +1,9 @@
+Streaming transaction logs mentioning GjPcPEmbJ7gXvWMitrHmFG7uYEAah3NTrbNmHdsCsCDo. Confirmed commitment
+Transaction executed in slot 6:
+  Signature: 5MTdj15my2fMESEJVcax92RC6TmA2fcniJCPuuWQs8HhW44N8KBhPAAzaM5ykKNAfvEtwcVLFGHvdQn9Y1rjEAJd
+  Status: Ok
+  Log Messages:
+    Program GjPcPEmbJ7gXvWMitrHmFG7uYEAah3NTrbNmHdsCsCDo invoke [1]
+    Program log: Instruction: VerifyAirdropSignature
+    Program GjPcPEmbJ7gXvWMitrHmFG7uYEAah3NTrbNmHdsCsCDo consumed 2563 of 400000 compute units
+    Program GjPcPEmbJ7gXvWMitrHmFG7uYEAah3NTrbNmHdsCsCDo success

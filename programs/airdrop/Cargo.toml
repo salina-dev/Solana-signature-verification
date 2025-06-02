@@ -1,0 +1,21 @@
+[package]
+name = "airdrop"
+version = "0.1.0"
+description = "Solana program for verifying off-chain Ed25519 signatures for an airdrop"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "airdrop"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+idl-build = ["anchor-lang/idl-build"]
+
+[dependencies]
+anchor-lang = "0.29.0"
+solana-program = "1.17.30"
